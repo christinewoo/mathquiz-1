@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Quiz</title>
+    <link rel="stylesheet" type="text/css" href="main.css"> 
+  </head>
+  <body onclick="checkAnswers();">
+    <h1>Quiz</h1>
+    <div id="quiz">
+      <div id="question1">
+        <div class="question">Which number is prime?</div>
+        <input type="radio" name="question1" value="a"/>
+        <label>.1</label>
+        <input type="radio" name="question1" value="b"/>
+        <label>.99e</label>
+        <input type="radio" name="question1" value="c"/>
+        <label>.26</label>
+        <input type="radio" name="question1" value="d"/>
+        <label>.73</label>
+      </div>
+      <br />
+      <div id="question2">
+        <div class="question">The following numbers are prime EXCECPT</div>
+        <input type="radio" name="question2" value="a"/>
+        <label>6</label>
+        <input type="radio" name="question2" value="b"/>
+        <label>23</label>
+        <input type="radio" name="question2" value="c"/>
+        <label>37</label>
+        <input type="radio" name="question2" value="d"/>
+        <label>59</label>
+      </div>
+      <br />
+      <div id="question3">
+        <div class="question">What kind is locker combination?</div>
+        <input type="radio" name="question3" value="a"/>
+        <label>Permutation</label>
+        <input type="radio" name="question3" value="b"/>
+        <label>Combination</label>
+        <input type="radio" name="question3" value="c"/>
+        <label>All of the above</label>
+        <input type="radio" name="question3" value="d"/>
+        <label>None of the above</label>
+      </div>
+      <br />
+      <div id="question4">
+        <div class="question">With only numbers 1,2,3 for passwords how many different combination can you have?</div>
+        <input type="radio" name="question4" value="a"/>
+        <label>3</label>
+        <input type="radio" name="question4" value="b"/>
+        <label>6</label>
+        <input type="radio" name="question4" value="c"/>
+        <label>9</label>
+        <input type="radio" name="question4" value="d"/>
+        <label>12</label>
+      </div>
+      <br />
+      <div id="question5">
+        <div class="question">If you have a fruit salad with apple, orange, and mango you have a ....</div>
+        <input type="radio" name="question5" value="a"/>
+        <label>Combination</label>
+        <input type="radio" name="question5" value="b"/>
+        <label>Permutation</label>
+        <input type="radio" name="question5" value="c"/>
+        <label>All of the above</label>
+        <input type="radio" name="question5" value="d"/>
+        <label>None of the above</label>
+      </div>
+      <br />
+      <div id="question6">
+        <div class="question">You saw a rainbow with red, orange, green, and purple, this is an example of what?</div>
+        <input type="radio" name="question6" value="a"/>
+        <label>Permutation</label>
+        <input type="radio" name="question6" value="b"/>
+        <label>Combination</label>
+        <input type="radio" name="question6" value="c"/>
+        <label>All of the above</label>
+        <input type="radio" name="question6" value="d"/>
+        <label>None of the above</label>
+      </div>
+      <br />
+      <div id="question7">
+        <div class="question">4 << 2 = ...</div>
+        <input type="radio" name="question7" value="a"/>
+        <label>16</label>
+        <input type="radio" name="question7" value="b"/>
+        <label>4</label>
+        <input type="radio" name="question7" value="c"/>
+        <label>2</label>
+        <input type="radio" name="question7" value="d"/>
+        <label>8</label>
+      </div>
+      <br />
+      <div id="question8">
+        <div class="question">Given the lengths of two sides of a right triangle (one with a 90 degree angle), how would you find the hypotenuse?</div>
+        <input type="radio" name="question8" value="a"/>
+        <label>Pi*Radius^2</label>
+        <input type="radio" name="question8" value="b"/>
+        <label>Pythagorean Theorem</label>
+        <input type="radio" name="question8" value="c"/>
+        <label>Calculator?</label>
+        <input type="radio" name="question8" value="d"/>
+        <label>Sin(side1 + side2)</label>
+      </div>
+      <br />
+      <div id="question9">
+        <div class="question">True or False: All games must run at at least 60 frames per second to be any good.</div>
+        <input type="radio" name="question9" value="a"/>
+        <label>True</label>
+        <input type="radio" name="question9" value="b"/>
+        <label>False</label>
+      </div>
+      <br />
+      <div id="question10">
+        <div class="question">Using a server can help you to...</div>
+        <input type="radio" name="question10" value="a"/>
+        <label>hide your code.</label>
+        <input type="radio" name="question10" value="b"/>
+        <label>have a performant game.</label>
+        <input type="radio" name="question10" value="c"/>
+        <label>create shared experiences for players.</label>
+        <input type="radio" name="question10" value="d"/>
+        <label>all of the above.</label>
+      </div>
+    </div>
+    <script src="jquery.js"></script>
+    <script src="impress.js"></script>
+    <!-- atom needs this to run -->
+    <canvas></canvas>
+    <script src="atom.js"></script>
+    <script src="easel.js"></script>
+    <script src="melon.js"></script>
+    <script src="yabble.js"></script>
+    <script src="jquery.gamequery.js"></script>
+    <script src="jaws.js"></script>
+    <script src="enchant.js"></script>
+    <script src="crafty.js"></script>
+    <script src="game.js"></script>
+  </body>
+</html>
+
